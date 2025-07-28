@@ -38,7 +38,7 @@ nav {
      justify-content: space-between;
      display: flex;
      color: #fff;
-
+     margin: 20px;
 }
 .containerFilho {
      margin: 10px;
@@ -98,10 +98,11 @@ nav {
         align-items: center;
         text-align: center;
         margin: 20px;
+        padding: 20px;
     }
 
     .containerFilho img {
-        max-width: 80%;
+        max-width: 100%;
         margin: 0 0 10px 0;
     }
 }
