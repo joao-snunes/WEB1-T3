@@ -102,4 +102,41 @@ nav {
      border-radius: 5px;
 }
 
+@media (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .containerFilho {
+        width: 90%;
+        flex-direction: row;
+    }
+
+    .containerFilho img {
+        max-width: 35%;
+    }
+}
+
+@media (max-width: 535px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerFilho {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .containerFilho img {
+        max-width: 80%;
+        margin: 0 0 10px 0;
+    }
+}
