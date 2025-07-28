@@ -25,10 +25,15 @@ nav {
     list-style: none;
     display: flex;
     gap: 30px;
+
 }
 
-.nav-menu li {
-    margin-left: 10px;
+.nav-login {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 30px;
 }
 
 .container {
@@ -88,12 +93,15 @@ nav {
     .nav-menu {
         flex-direction: column;
         align-items: center;
+        margin: 0;
+        padding: 30px 0 0 0;
     }
 
     .containerFilho {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin: 20px;
     }
 
     .containerFilho img {
