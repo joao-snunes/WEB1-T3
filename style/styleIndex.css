@@ -15,7 +15,7 @@ a:hover {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background: #000;
 
@@ -40,7 +40,7 @@ nav {
     justify-content: space-between;
     display: flex;
     color: #fff;
-
+    margin: 20px;
 }
 
 .containerFilho {
@@ -102,10 +102,11 @@ nav {
         align-items: center;
         text-align: center;
         margin: 20px;
+        padding: 20px;
     }
 
     .containerFilho img {
-        max-width: 80%;
+        max-width: 100%;
         margin: 0 0 10px 0;
     }
 }
